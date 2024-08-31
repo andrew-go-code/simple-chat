@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 10.2.4"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "API_KEY": "AIzaSyA7eteCexPtrwxHjzQanKD9_PCSiGn5dDY",
+        "AUTH_DOMAIN": "simplechat-99cbb.firebaseapp.com",
+        "PROJECT_ID": "simplechat-99cbb",
+        "STORAGE_BUCKET": "simplechat-99cbb.appspot.com",
+        "MESSAGING_SENDER_ID": "150142313529",
+        "APP_ID": "1=150142313529=web=6b452bf9fff0fb03d799e8"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
